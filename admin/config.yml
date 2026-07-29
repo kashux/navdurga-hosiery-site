@@ -1,0 +1,53 @@
+backend:
+  name: github
+  repo: kashux/navdurga-hosiery-site
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "products"
+    label: "Products"
+    files:
+      - file: "data/products.json"
+        label: "All Products"
+        name: "products"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.category}} (₹{{fields.price}})"
+            fields:
+              - { label: "ID (unique, no spaces, e.g. nw8)", name: "id", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options: ["nightwear", "loungewear", "lingerie", "accessories"]
+              - { label: "Product Name", name: "name", widget: "string" }
+              - { label: "Price (₹)", name: "price", widget: "number", value_type: "int" }
+              - label: "Sizes"
+                name: "sizes"
+                widget: "list"
+                hint: "Add each size as a separate entry, e.g. S, M, L, XL"
+              - { label: "Product Photo", name: "image", widget: "image", required: false, hint: "Upload a photo — this shows on the site automatically." }
+              - { label: "Product Video (optional)", name: "video", widget: "file", required: false }
+              - { label: "Date Added", name: "dateAdded", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, hint: "Controls the 'New' badge — set to today's date for new arrivals." }
+              - { label: "Description", name: "description", widget: "text" }
+
+  - name: "settings"
+    label: "Store Settings"
+    files:
+      - file: "data/settings.json"
+        label: "Store Details"
+        name: "settings"
+        fields:
+          - { label: "Address Line 1", name: "addressLine1", widget: "string" }
+          - { label: "Address Line 2", name: "addressLine2", widget: "string" }
+          - { label: "Phone (how it's displayed, e.g. +91 90140 86878)", name: "phoneDisplay", widget: "string" }
+          - { label: "Phone (digits only with country code, e.g. 919014086878)", name: "phoneLink", widget: "string" }
+          - { label: "WhatsApp Number (digits only with country code)", name: "whatsappNumber", widget: "string" }
+          - { label: "Instagram Handle (no @ symbol)", name: "instagramHandle", widget: "string" }
+          - { label: "Store Hours", name: "hours", widget: "string" }
+          - { label: "About — Paragraph 1", name: "aboutParagraph1", widget: "text" }
+          - { label: "About — Paragraph 2", name: "aboutParagraph2", widget: "text" }
