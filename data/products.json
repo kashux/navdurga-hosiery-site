@@ -182,6 +182,24 @@
       "image": "images/uploads/whatsapp-image-2026-07-29-at-2.56.31-pm-1-.jpeg",
       "description": "All-over lace lingerie set with delicate scalloped edges.",
       "category": "lingerie"
+    },
+    {
+      "id": "Sn",
+      "category": "nightwear",
+      "name": "Short Nighty",
+      "price": 799,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL"
+      ],
+      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.49.06-pm-1-.jpeg",
+      "description": "Short Nighty with floral print and bold color",
+      "dateAdded": "2026-07-30"
     }
   ]
 }
