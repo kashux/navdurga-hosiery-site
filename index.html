@@ -702,7 +702,8 @@ async function init(){
       fetch('data/products.json', {cache:"no-store"}),
       fetch('data/settings.json', {cache:"no-store"})
     ]);
-    PRODUCTS = await productsRes.json();
+  const productsData = await productsRes.json();
+    PRODUCTS = productsData.products || [];
     SETTINGS = await settingsRes.json();
   }catch(err){
     console.error('Could not load site content from data/ files:', err);
