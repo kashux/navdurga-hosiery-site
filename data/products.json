@@ -1,55 +1,187 @@
 {
   "products": [
-    { "id": "nw1", "category": "nightwear", "name": "Satin Button Nightsuit", "price": 1499,
-      "sizes": ["S","M","L","XL"], "image": "", "video": "", "dateAdded": "2026-07-20",
-      "description": "Soft satin nightsuit with pearl buttons and piped trims." },
-    { "id": "nw2", "category": "nightwear", "name": "Floral Cotton Nighty", "price": 899,
-      "sizes": ["S","M","L","XL","XXL"], "image": "", "video": "", "dateAdded": "2026-06-10",
-      "description": "Breathable cotton nighty with all-over floral print." },
-    { "id": "nw3", "category": "nightwear", "name": "Quilted Robe", "price": 1799,
-      "sizes": ["Free Size"], "image": "", "video": "", "dateAdded": "2026-05-02",
-      "description": "Quilted robe with self-tie belt and side pockets." },
-    { "id": "lw1", "category": "loungewear", "name": "Ribbed Co-ord Set", "price": 1299,
-      "sizes": ["S","M","L","XL"], "image": "", "video": "", "dateAdded": "2026-07-22",
-      "description": "Ribbed knit tank and shorts co-ord, breathable and stretchy." },
-    { "id": "lw3", "category": "loungewear", "name": "Modal T-Shirt Dress", "price": 999,
-      "sizes": ["S","M","L"], "image": "", "video": "", "dateAdded": "2026-03-01",
-      "description": "Ultra-soft modal dress, oversized easy fit." },
-    { "id": "lw4", "category": "loungewear", "name": "Casual Pants", "price": 1099,
-      "sizes": ["S","M","L","XL","XXL"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "Relaxed-fit casual pants with an elasticated, comfortable waist." },
-    { "id": "ac4", "category": "accessories", "name": "Cotton Ankle Socks", "price": 199,
-      "sizes": ["Free Size"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "Soft cotton ankle socks, breathable everyday wear." },
-    { "id": "ac5", "category": "accessories", "name": "Adjustable Bra Straps", "price": 149,
-      "sizes": ["Free Size"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "Replacement bra straps, adjustable and transparent-option available." },
-    { "id": "ac6", "category": "accessories", "name": "Nipple Pasties", "price": 299,
-      "sizes": ["Free Size"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "Reusable, skin-friendly adhesive nipple pasties for discreet coverage." },
-    { "id": "ac7", "category": "accessories", "name": "Clip-On Camisole", "price": 399,
-      "sizes": ["S","M","L","XL"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "Attachable camisole panel for instant coverage under any neckline." },
-    { "id": "lg1", "category": "lingerie", "name": "Everyday T-Shirt Bra", "price": 599,
-      "sizes": ["32B","34B","36B","38B"], "image": "", "video": "", "dateAdded": "2026-07-24",
-      "description": "Seamless, wire-free t-shirt bra for daily wear." },
-    { "id": "lg2", "category": "lingerie", "name": "Lace Bralette Set", "price": 899,
-      "sizes": ["S","M","L"], "image": "", "video": "", "dateAdded": "2026-06-28",
-      "description": "Delicate lace bralette with matching brief." },
-    { "id": "lg3", "category": "lingerie", "name": "Cotton Full-Coverage Set", "price": 749,
-      "sizes": ["34B","36B","38B","40B"], "image": "", "video": "", "dateAdded": "2026-02-15",
-      "description": "Full-coverage everyday set in soft breathable cotton." },
-    { "id": "lg4", "category": "lingerie", "name": "Spaghetti Strap Camisole", "price": 449,
-      "sizes": ["S","M","L","XL"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "Lightweight camisole with thin spaghetti straps, worn as innerwear or as a layer." },
-    { "id": "lg5", "category": "lingerie", "name": "2-Piece Lingerie Set", "price": 999,
-      "sizes": ["32B","34B","36B","38B"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "Matching bra and brief set, designed to be worn together." },
-    { "id": "lg6", "category": "lingerie", "name": "Laced Lingerie Set", "price": 1199,
-      "sizes": ["S","M","L"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "All-over lace lingerie set with delicate scalloped edges." },
-    { "id": "lg7", "category": "lingerie", "name": "Satin Lingerie Set", "price": 1299,
-      "sizes": ["S","M","L"], "image": "", "video": "", "dateAdded": "2026-07-26",
-      "description": "Smooth satin lingerie set with a subtle sheen finish." }
+    {
+      "price": 1499,
+      "name": "Satin Button Nightsuit",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "dateAdded": "2026-07-20",
+      "video": "",
+      "id": "nw1",
+      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.54.46-pm-2-.jpeg",
+      "description": "Soft satin nightsuit with buttons and piped trims.",
+      "category": "nightwear"
+    },
+    {
+      "price": 899,
+      "name": "Floral Alpine Nighty",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "dateAdded": "2026-06-10",
+      "video": "",
+      "id": "nw2",
+      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.50.08-pm-1-.jpeg",
+      "description": "Breathable Alpine nighty with all-over floral print.",
+      "category": "nightwear"
+    },
+    {
+      "price": 1299,
+      "name": "Linen Co-ord Set",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "dateAdded": "2026-07-22",
+      "video": "",
+      "id": "lw1",
+      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.49.07-pm-1-.jpeg",
+      "description": "Linen fabric pant and tshirt co-ord, breathable and stretchy.",
+      "category": "loungewear"
+    },
+    {
+      "price": 999,
+      "name": "Linen Co-ord set",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dateAdded": "2026-03-01",
+      "video": "",
+      "id": "lw3",
+      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.49.07-pm.jpeg",
+      "description": "Ultra-soft modal dress, embroided top easy fit.",
+      "category": "loungewear"
+    },
+    {
+      "price": 1099,
+      "name": "Casual Pants",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "dateAdded": "2026-07-26",
+      "video": "",
+      "id": "lw4",
+      "image": "images/uploads/images-1-.jpg",
+      "description": "Relaxed-fit casual pants with an elasticated, comfortable waist.",
+      "category": "loungewear"
+    },
+    {
+      "price": 199,
+      "name": "Cotton Ankle Socks",
+      "sizes": [
+        "Free Size"
+      ],
+      "dateAdded": "2026-07-26",
+      "video": "",
+      "id": "ac4",
+      "image": "images/uploads/shopping.webp",
+      "description": "Soft cotton ankle socks, breathable everyday wear.",
+      "category": "accessories"
+    },
+    {
+      "price": 149,
+      "name": "Adjustable Bra Straps",
+      "sizes": [
+        "Free Size"
+      ],
+      "dateAdded": "2026-07-26",
+      "video": "",
+      "id": "ac5",
+      "image": "images/uploads/images-2-.jpg",
+      "description": "Replacement bra straps, adjustable and transparent-option available.",
+      "category": "accessories"
+    },
+    {
+      "price": 299,
+      "name": "Nipple Pasties",
+      "sizes": [
+        "Free Size"
+      ],
+      "dateAdded": "2026-07-26",
+      "video": "",
+      "id": "ac6",
+      "image": "images/uploads/images-3-.jpg",
+      "description": "Reusable, skin-friendly adhesive nipple pasties for discreet coverage.",
+      "category": "accessories"
+    },
+    {
+      "price": 399,
+      "name": "Clip-On Camisole",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "dateAdded": "2026-07-26",
+      "video": "",
+      "id": "ac7",
+      "image": "images/uploads/images-4-.jpg",
+      "description": "Attachable camisole panel for instant coverage under any neckline.",
+      "category": "accessories"
+    },
+    {
+      "price": 599,
+      "name": "Everyday T-Shirt Bra",
+      "sizes": [
+        "32B",
+        "34B",
+        "36B",
+        "38B"
+      ],
+      "dateAdded": "2026-07-24",
+      "video": "",
+      "id": "lg1",
+      "image": "images/uploads/images-5-.jpg",
+      "description": "Seamless, wire-free t-shirt bra for daily wear.",
+      "category": "lingerie"
+    },
+    {
+      "price": 449,
+      "name": "Spaghetti Strap Camisole",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "dateAdded": "2026-07-26",
+      "video": "",
+      "id": "lg4",
+      "image": "images/uploads/images-6-.jpg",
+      "description": "Lightweight camisole with thin spaghetti straps, worn as innerwear or as a layer.",
+      "category": "lingerie"
+    },
+    {
+      "price": 1199,
+      "name": "Laced Lingerie Set",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "dateAdded": "2026-07-26",
+      "video": "",
+      "id": "lg6",
+      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.56.31-pm-1-.jpeg",
+      "description": "All-over lace lingerie set with delicate scalloped edges.",
+      "category": "lingerie"
+    }
   ]
 }
