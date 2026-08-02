@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: kashux/navdurga-hosiery-site
+  repo: YOUR_GITHUB_USERNAME/navdurga-hosiery-site   # e.g. priya123/navdurga-hosiery-site
   branch: main
 
 media_folder: "images/uploads"
@@ -32,6 +32,14 @@ collections:
                 hint: "Add each size as a separate entry, e.g. S, M, L, XL"
               - { label: "Product Photo", name: "image", widget: "image", required: false, hint: "Upload a photo — this shows on the site automatically." }
               - { label: "Product Video (optional)", name: "video", widget: "file", required: false }
+              - label: "Colors (optional)"
+                name: "colors"
+                widget: "list"
+                required: false
+                hint: "Add one entry per color, each with its own photo. Clicking a color on the site swaps the product photo."
+                fields:
+                  - { label: "Color Name", name: "name", widget: "string" }
+                  - { label: "Photo for this color", name: "image", widget: "image", required: false }
               - { label: "Date Added", name: "dateAdded", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, hint: "Controls the 'New' badge — set to today's date for new arrivals." }
               - { label: "Description", name: "description", widget: "text" }
 
