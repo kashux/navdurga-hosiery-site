@@ -1,100 +1,6 @@
 {
   "products": [
     {
-      "price": 1499,
-      "name": "Satin Button Nightsuit",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "dateAdded": "2026-07-20",
-      "video": "",
-      "id": "nw1",
-      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.54.46-pm-2-.jpeg",
-      "description": "Soft satin nightsuit with buttons and piped trims.",
-      "category": "nightwear"
-    },
-    {
-      "price": 899,
-      "name": "Floral Alpine Nighty",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "dateAdded": "2026-06-10",
-      "video": "",
-      "id": "nw2",
-      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.50.08-pm-1-.jpeg",
-      "description": "Breathable Alpine nighty with all-over floral print.",
-      "category": "nightwear"
-    },
-    {
-      "price": 1299,
-      "name": "Linen Co-ord Set",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "dateAdded": "2026-07-22",
-      "video": "",
-      "id": "lw1",
-      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.49.07-pm-1-.jpeg",
-      "description": "Linen fabric pant and tshirt co-ord, breathable and stretchy.",
-      "category": "loungewear"
-    },
-    {
-      "price": 999,
-      "name": "Linen Co-ord set",
-      "sizes": [
-        "S",
-        "M",
-        "L"
-      ],
-      "dateAdded": "2026-03-01",
-      "video": "",
-      "id": "lw3",
-      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.49.07-pm.jpeg",
-      "description": "Ultra-soft modal dress, embroided top easy fit.",
-      "category": "loungewear"
-    },
-    {
-      "price": 1099,
-      "name": "Casual Pants",
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "dateAdded": "2026-07-26",
-      "video": "",
-      "id": "lw4",
-      "image": "images/uploads/images-1-.jpg",
-      "description": "Relaxed-fit casual pants with an elasticated, comfortable waist.",
-      "category": "loungewear"
-    },
-    {
-      "price": 199,
-      "name": "Cotton Ankle Socks",
-      "sizes": [
-        "Free Size"
-      ],
-      "dateAdded": "2026-07-26",
-      "video": "",
-      "id": "ac4",
-      "image": "images/uploads/shopping.webp",
-      "description": "Soft cotton ankle socks, breathable everyday wear.",
-      "category": "accessories"
-    },
-    {
       "price": 149,
       "name": "Adjustable Bra Straps",
       "sizes": [
@@ -103,7 +9,7 @@
       "dateAdded": "2026-07-26",
       "video": "",
       "id": "ac5",
-      "image": "images/uploads/images-2-.jpg",
+      "image": "images/uploads/images-1-.jpg",
       "description": "Replacement bra straps, adjustable and transparent-option available.",
       "category": "accessories"
     },
@@ -182,24 +88,6 @@
       "image": "images/uploads/whatsapp-image-2026-07-29-at-2.56.31-pm-1-.jpeg",
       "description": "All-over lace lingerie set with delicate scalloped edges.",
       "category": "lingerie"
-    },
-    {
-      "id": "Sn",
-      "category": "nightwear",
-      "name": "Short Nighty",
-      "price": 799,
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL",
-        "3XL",
-        "4XL"
-      ],
-      "image": "images/uploads/whatsapp-image-2026-07-29-at-2.49.06-pm-1-.jpeg",
-      "description": "Short Nighty with floral print and bold color",
-      "dateAdded": "2026-07-30"
     }
   ]
 }
