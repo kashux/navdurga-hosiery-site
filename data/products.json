@@ -153,6 +153,26 @@
       "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.37-am.jpeg",
       "description": "Maternity short nighty with zips and belt",
       "category": "nightwear"
+    },
+    {
+      "price": 899,
+      "name": "Maternity Short Nighty",
+      "colors": [
+        {
+          "name": "Black and gray",
+          "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.38-am.jpeg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "dateAdded": "2026-08-03",
+      "id": "MNTY1",
+      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.38-am-1-.jpeg",
+      "description": "Maternity Short Nighty with zips and belt",
+      "category": "nightwear"
     }
   ]
 }
