@@ -113,6 +113,26 @@
       "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.25-pm-2-.jpeg",
       "description": "Special N R Linen fabric Nighty for comfort and style",
       "category": "nightwear"
+    },
+    {
+      "price": 1500,
+      "name": "Satin Kaftan Nighty",
+      "colors": [
+        {
+          "name": "Black and Gray",
+          "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.31-am.jpeg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "dateAdded": "2026-08-03",
+      "id": "SNTY1",
+      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.32-am.jpeg",
+      "description": "Satin Kaftan Nighty with floral pattern",
+      "category": "nightwear"
     }
   ]
 }
