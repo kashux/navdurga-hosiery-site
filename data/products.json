@@ -88,6 +88,31 @@
       "image": "images/uploads/whatsapp-image-2026-07-29-at-2.56.31-pm-1-.jpeg",
       "description": "All-over lace lingerie set with delicate scalloped edges.",
       "category": "lingerie"
+    },
+    {
+      "price": 1000,
+      "name": "N R Linen nighty",
+      "colors": [
+        {
+          "name": "Pink",
+          "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.26-pm.jpeg"
+        },
+        {
+          "name": "Peach",
+          "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.26-pm-1-.jpeg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        ""
+      ],
+      "dateAdded": "2026-08-03",
+      "id": "NTY",
+      "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.25-pm-2-.jpeg",
+      "description": "Special N R Linen fabric Nighty for comfort and style",
+      "category": "nightwear"
     }
   ]
 }
