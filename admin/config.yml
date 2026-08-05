@@ -2,6 +2,7 @@ backend:
   name: github
   repo: kashux/navdurga-hosiery-site
   branch: main
+
 media_folder: "images/uploads"
 public_folder: "images/uploads"
 
@@ -29,6 +30,15 @@ collections:
                 name: "sizes"
                 widget: "list"
                 hint: "Add each size as a separate entry, e.g. S, M, L, XL"
+              - label: "Different price per size? (optional)"
+                name: "sizePricing"
+                widget: "list"
+                required: false
+                hint: "Only fill this in if some sizes cost more or less than the main Price above. Add one entry per size that has a DIFFERENT price — spell the size exactly as it appears above (e.g. 'XL'). Any size you don't list here just uses the main Price."
+                summary: "{{fields.size}} — ₹{{fields.price}}"
+                fields:
+                  - { label: "Size (must match a size above exactly)", name: "size", widget: "string" }
+                  - { label: "Price for this size (₹)", name: "price", widget: "number", value_type: "int" }
               - { label: "Product Photo", name: "image", widget: "image", required: false, hint: "Upload a photo — this shows on the site automatically." }
               - { label: "Product Video (optional)", name: "video", widget: "file", required: false }
               - label: "Colors (optional)"
