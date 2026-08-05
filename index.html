@@ -455,7 +455,7 @@
     </div>
     <div class="trust-item">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg>
-      Sizes from M to 4XL
+      Sizes from S to 4XL
     </div>
     <div class="trust-item">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg>
@@ -577,7 +577,8 @@
 
     </div>
     <div class="map-box">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.552906350976!2d78.49002807501012!3d17.390131583497585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb994e5dc3c55b%3A0x6eb89200f5567575!2sNAVADURGA%20HOSIERY%2CJINAL%20FASHION!5e1!3m2!1sen!2sin!4v1785706620437!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      Replace this box with an embedded Google Map: search your shop on
+      Google Maps → Share → Embed a map → paste the &lt;iframe&gt; code here.
     </div>
   </div>
 </section>
@@ -644,14 +645,25 @@ function mediaMarkup(p){
     </div>`;
 }
 
+function priceForSize(p, sizeName){
+  if(p.sizePricing && p.sizePricing.length){
+    const match = p.sizePricing.find(s => s.size === sizeName);
+    if(match && match.price !== undefined && match.price !== null && match.price !== ''){
+      return Number(match.price);
+    }
+  }
+  return Number(p.price);
+}
+
 function cardMarkup(p){
   const newBadge = isNew(p) ? `<span class="new-tag">New</span>` : "";
   const sizeButtons = (p.sizes || []).map((s,i) =>
-    `<button class="size-btn${i===0 ? ' selected' : ''}" data-size="${s}" onclick="event.stopPropagation(); selectSize(this)">${s}</button>`
+    `<button class="size-btn${i===0 ? ' selected' : ''}" data-size="${s}" data-price="${priceForSize(p, s)}" onclick="event.stopPropagation(); selectSize(this)">${s}</button>`
   ).join("");
   const colorChips = (p.colors && p.colors.length) ? `<div class="colors">${p.colors.map((c,i) =>
     `<button class="color-chip${i===0 ? ' selected' : ''}" onclick="event.stopPropagation(); selectColor(this, '${p.id}', '${(c.image||'').replace(/'/g,"\\'")}')">${c.name}</button>`
   ).join("")}</div>` : "";
+  const initialPrice = (p.sizes && p.sizes.length) ? priceForSize(p, p.sizes[0]) : p.price;
   return `
   <div class="card" data-cat="${p.category}" onclick="openProduct('${p.id}')">
     <div class="media">
@@ -661,11 +673,11 @@ function cardMarkup(p){
     <div class="card-body">
       <h4>${p.name}</h4>
       <p class="desc">${p.description}</p>
-      <div class="price">₹${Number(p.price).toLocaleString('en-IN')}</div>
+      <div class="price">₹${Number(initialPrice).toLocaleString('en-IN')}</div>
       <div class="sizes">${sizeButtons}</div>
       ${colorChips}
       <div class="card-actions">
-        <button class="btn-small" onclick="event.stopPropagation(); enquire('${p.id}')">Enquire on WhatsApp</button>
+        <button class="btn-small" onclick="event.stopPropagation(); enquireFromContext(this, '${p.id}')">Enquire on WhatsApp</button>
       </div>
     </div>
   </div>`;
@@ -674,6 +686,12 @@ function cardMarkup(p){
 function selectSize(btn){
   btn.parentElement.querySelectorAll('.size-btn').forEach(b => b.classList.remove('selected'));
   btn.classList.add('selected');
+  const price = btn.dataset.price;
+  const container = btn.closest('.card-body') || btn.closest('.modal-info');
+  if(container && price){
+    const priceEl = container.querySelector('.price');
+    if(priceEl) priceEl.textContent = '₹' + Number(price).toLocaleString('en-IN');
+  }
 }
 
 function selectColor(btn, productId, colorImage){
@@ -692,12 +710,22 @@ function selectColor(btn, productId, colorImage){
   document.getElementById('modalMedia').innerHTML = mediaMarkup({...p, image: colorImage, video: ''});
 }
 
-function enquire(id){
+function enquireFromContext(el, id){
+  const container = el.closest('.card') || document.getElementById('productModal');
+  const selectedSizeBtn = container ? container.querySelector('.size-btn.selected') : null;
+  const sizeName = selectedSizeBtn ? selectedSizeBtn.dataset.size || selectedSizeBtn.textContent : null;
+  const price = selectedSizeBtn ? selectedSizeBtn.dataset.price : null;
+  enquire(id, sizeName, price);
+}
+
+function enquire(id, sizeName, price){
   const p = PRODUCTS.find(x => x.id === id);
   if(!p) return;
   const phone = (SETTINGS.whatsappNumber || '').replace(/\D/g,'');
   const link = `${window.location.origin}${window.location.pathname}?product=${p.id}`;
-  const msg = encodeURIComponent(`Hi Navdurga Hosiery, I'm interested in "${p.name}" (₹${Number(p.price).toLocaleString('en-IN')}).\n${link}\nCould you share more details?`);
+  const finalPrice = (price !== undefined && price !== null && price !== '') ? Number(price) : Number(p.price);
+  const sizeText = sizeName ? ` (Size: ${sizeName})` : '';
+  const msg = encodeURIComponent(`Hi Navdurga Hosiery, I'm interested in "${p.name}"${sizeText} — ₹${finalPrice.toLocaleString('en-IN')}.\n${link}\nCould you share more details?`);
   window.open(`https://wa.me/${phone}?text=${msg}`, "_blank");
 }
 
@@ -708,14 +736,15 @@ function openProduct(id){
   document.getElementById('modalNewTag').style.display = isNew(p) ? 'inline-block' : 'none';
   document.getElementById('modalName').textContent = p.name;
   document.getElementById('modalDesc').textContent = p.description;
-  document.getElementById('modalPrice').textContent = '₹' + Number(p.price).toLocaleString('en-IN');
+  const initialPrice = (p.sizes && p.sizes.length) ? priceForSize(p, p.sizes[0]) : p.price;
+  document.getElementById('modalPrice').textContent = '₹' + Number(initialPrice).toLocaleString('en-IN');
   document.getElementById('modalSizes').innerHTML = (p.sizes || []).map((s,i) =>
-    `<button class="size-btn${i===0 ? ' selected' : ''}" onclick="selectSize(this)">${s}</button>`
+    `<button class="size-btn${i===0 ? ' selected' : ''}" data-size="${s}" data-price="${priceForSize(p, s)}" onclick="selectSize(this)">${s}</button>`
   ).join('');
   document.getElementById('modalColors').innerHTML = (p.colors && p.colors.length) ? p.colors.map((c,i) =>
     `<button class="color-chip${i===0 ? ' selected' : ''}" onclick="selectColor(this, '${p.id}', '${(c.image||'').replace(/'/g,"\\'")}')">${c.name}</button>`
   ).join('') : '';
-  document.getElementById('modalEnquireBtn').onclick = () => enquire(p.id);
+  document.getElementById('modalEnquireBtn').onclick = (e) => enquireFromContext(e.target, p.id);
   document.getElementById('productModal').classList.add('open');
   window.history.replaceState(null, '', `?product=${p.id}`);
 }
