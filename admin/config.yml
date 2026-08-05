@@ -2,7 +2,7 @@ backend:
   name: github
   repo:  kashux/navdurga-hosiery-site
   branch: main
-base_url: https://navdurgahosieryretail.netlify.app
+base_url: https://navdurgahosiery.netlify.app
 media_folder: "images/uploads"
 public_folder: "images/uploads"
 
