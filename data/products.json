@@ -1,97 +1,106 @@
 {
   "products": [
     {
-      "price": 149,
-      "name": "Adjustable Bra Straps",
-      "sizes": [
-        "Free Size"
-      ],
-      "dateAdded": "2026-07-26",
-      "video": "",
       "id": "ac5",
-      "image": "images/uploads/images-1-.jpg",
-      "description": "Replacement bra straps, adjustable and transparent-option available.",
-      "category": "accessories"
-    },
-    {
-      "price": 299,
-      "name": "Nipple Pasties",
+      "category": "accessories",
+      "name": "Adjustable Bra Straps",
+      "price": 149,
       "sizes": [
         "Free Size"
       ],
-      "dateAdded": "2026-07-26",
+      "image": "images/uploads/images-1-.jpg",
       "video": "",
-      "id": "ac6",
-      "image": "images/uploads/images-3-.jpg",
-      "description": "Reusable, skin-friendly adhesive nipple pasties for discreet coverage.",
-      "category": "accessories"
+      "dateAdded": "2026-07-26",
+      "description": "Replacement bra straps, adjustable and transparent-option available."
     },
     {
-      "price": 399,
+      "id": "ac6",
+      "category": "accessories",
+      "name": "Nipple Pasties",
+      "price": 299,
+      "sizes": [
+        "Free Size"
+      ],
+      "image": "images/uploads/images-3-.jpg",
+      "video": "",
+      "dateAdded": "2026-07-26",
+      "description": "Reusable, skin-friendly adhesive nipple pasties for discreet coverage."
+    },
+    {
+      "id": "ac7",
+      "category": "accessories",
       "name": "Clip-On Camisole",
+      "price": 399,
       "sizes": [
         "S",
         "M",
         "L",
         "XL"
       ],
-      "dateAdded": "2026-07-26",
-      "video": "",
-      "id": "ac7",
       "image": "images/uploads/images-4-.jpg",
-      "description": "Attachable camisole panel for instant coverage under any neckline.",
-      "category": "accessories"
+      "video": "",
+      "dateAdded": "2026-07-26",
+      "description": "Attachable camisole panel for instant coverage under any neckline."
     },
     {
-      "price": 599,
+      "id": "lg1",
+      "category": "lingerie",
       "name": "Everyday T-Shirt Bra",
+      "price": 599,
       "sizes": [
         "32B",
         "34B",
         "36B",
         "38B"
       ],
-      "dateAdded": "2026-07-24",
-      "video": "",
-      "id": "lg1",
       "image": "images/uploads/images-5-.jpg",
-      "description": "Seamless, wire-free t-shirt bra for daily wear.",
-      "category": "lingerie"
+      "video": "",
+      "dateAdded": "2026-07-24",
+      "description": "Seamless, wire-free t-shirt bra for daily wear."
     },
     {
-      "price": 449,
+      "id": "lg4",
+      "category": "lingerie",
       "name": "Spaghetti Strap Camisole",
+      "price": 449,
       "sizes": [
         "S",
         "M",
         "L",
         "XL"
       ],
-      "dateAdded": "2026-07-26",
-      "video": "",
-      "id": "lg4",
       "image": "images/uploads/images-6-.jpg",
-      "description": "Lightweight camisole with thin spaghetti straps, worn as innerwear or as a layer.",
-      "category": "lingerie"
+      "video": "",
+      "dateAdded": "2026-07-26",
+      "description": "Lightweight camisole with thin spaghetti straps, worn as innerwear or as a layer."
     },
     {
-      "price": 1199,
+      "id": "lg6",
+      "category": "lingerie",
       "name": "Laced Lingerie Set",
+      "price": 1199,
       "sizes": [
         "S",
         "M",
         "L"
       ],
-      "dateAdded": "2026-07-26",
-      "video": "",
-      "id": "lg6",
       "image": "images/uploads/whatsapp-image-2026-07-29-at-2.56.31-pm-1-.jpeg",
-      "description": "All-over lace lingerie set with delicate scalloped edges.",
-      "category": "lingerie"
+      "video": "",
+      "dateAdded": "2026-07-26",
+      "description": "All-over lace lingerie set with delicate scalloped edges."
     },
     {
-      "price": 1000,
+      "id": "NTY",
+      "category": "nightwear",
       "name": "N R Linen nighty",
+      "price": 1000,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        ""
+      ],
+      "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.25-pm-2-.jpeg",
       "colors": [
         {
           "name": "Pink",
@@ -102,77 +111,88 @@
           "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.26-pm-1-.jpeg"
         }
       ],
+      "dateAdded": "2026-08-03",
+      "description": "Special N R Linen fabric Nighty for comfort and style"
+    },
+    {
+      "id": "SNTY1",
+      "category": "nightwear",
+      "name": "Satin Kaftan Nighty",
+      "price": 1500,
       "sizes": [
         "M",
         "L",
-        "XL",
-        ""
+        "XL"
       ],
-      "dateAdded": "2026-08-03",
-      "id": "NTY",
-      "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.25-pm-2-.jpeg",
-      "description": "Special N R Linen fabric Nighty for comfort and style",
-      "category": "nightwear"
-    },
-    {
-      "price": 1500,
-      "name": "Satin Kaftan Nighty",
+      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.32-am.jpeg",
       "colors": [
         {
           "name": "Black and Gray",
           "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.31-am.jpeg"
         }
       ],
+      "dateAdded": "2026-08-03",
+      "description": "Satin Kaftan Nighty with floral pattern"
+    },
+    {
+      "id": "MNTY",
+      "category": "nightwear",
+      "name": "Maternity Short Nighty",
+      "price": 900,
       "sizes": [
         "M",
         "L",
         "XL"
       ],
-      "dateAdded": "2026-08-03",
-      "id": "SNTY1",
-      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.32-am.jpeg",
-      "description": "Satin Kaftan Nighty with floral pattern",
-      "category": "nightwear"
-    },
-    {
-      "price": 900,
-      "name": "Maternity Short Nighty",
+      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.37-am.jpeg",
       "colors": [
         {
           "name": "Black",
           "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.37-am-1-.jpeg"
         }
       ],
+      "dateAdded": "2026-08-03",
+      "description": "Maternity short nighty with zips and belt"
+    },
+    {
+      "id": "MNTY1",
+      "category": "nightwear",
+      "name": "Maternity Short Nighty",
+      "price": 899,
       "sizes": [
         "M",
         "L",
         "XL"
       ],
-      "dateAdded": "2026-08-03",
-      "id": "MNTY",
-      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.37-am.jpeg",
-      "description": "Maternity short nighty with zips and belt",
-      "category": "nightwear"
-    },
-    {
-      "price": 899,
-      "name": "Maternity Short Nighty",
+      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.38-am-1-.jpeg",
       "colors": [
         {
           "name": "Black and gray",
           "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.38-am.jpeg"
         }
       ],
-      "sizes": [
-        "M",
-        "L",
-        "XL"
-      ],
       "dateAdded": "2026-08-03",
-      "id": "MNTY1",
-      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.38-am-1-.jpeg",
-      "description": "Maternity Short Nighty with zips and belt",
-      "category": "nightwear"
+      "description": "Maternity Short Nighty with zips and belt"
+    },
+    {
+      "id": "TP",
+      "category": "loungewear",
+      "name": "Track pants",
+      "price": 700,
+      "sizes": [
+        "L,XL,XXL,3XL,4XL,5XL"
+      ],
+      "sizePricing": [],
+      "image": "/images/uploads/WhatsApp Image 2026-08-06 at 2.00.12 AM.jpeg",
+      "video": "",
+      "colors": [
+        {
+          "name": "Navy Blue",
+          "image": "/images/uploads/WhatsApp Image 2026-08-06 at 2.00.12 AM (1).jpeg"
+        }
+      ],
+      "dateAdded": "2026-08-07",
+      "description": "Dry Fit Track pants for women, with drawstring and safe zip pockets"
     }
   ]
 }
