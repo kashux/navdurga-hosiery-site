@@ -180,7 +180,12 @@
       "name": "Track pants",
       "price": 700,
       "sizes": [
-        "L,XL,XXL,3XL,4XL,5XL"
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL",
+        "5XL"
       ],
       "sizePricing": [],
       "image": "/images/uploads/WhatsApp Image 2026-08-06 at 2.00.12 AM.jpeg",
@@ -200,7 +205,12 @@
       "name": "Satin Kaftan nighty",
       "price": 1100,
       "sizes": [
-        "M,L,XL,XXL,3XL,4XL"
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL"
       ],
       "sizePricing": [],
       "image": "/images/uploads/WhatsApp Image 2026-08-03 at 2.07.32 AM (2).jpeg",
