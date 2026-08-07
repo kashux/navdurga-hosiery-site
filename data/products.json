@@ -213,6 +213,26 @@
       ],
       "dateAdded": "2026-08-07",
       "description": "Italian Satin fabric kaftan nighty with floral design and drawstring"
+    },
+    {
+      "id": "knty1",
+      "category": "nightwear",
+      "name": "Satin Kaftan nighty",
+      "price": 1000,
+      "sizes": [
+        "M,L,XL,XXL,3XL,4XL"
+      ],
+      "sizePricing": [],
+      "image": "/images/uploads/WhatsApp Image 2026-08-03 at 2.07.33 AM.jpeg",
+      "video": "",
+      "colors": [
+        {
+          "name": "Black tie dye",
+          "image": "/images/uploads/WhatsApp Image 2026-08-03 at 2.07.35 AM.jpeg"
+        }
+      ],
+      "dateAdded": "2026-08-07",
+      "description": "Italian Satin fabric kaftan nighty with floral design and drawstring"
     }
   ]
 }
