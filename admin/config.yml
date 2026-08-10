@@ -26,6 +26,7 @@ collections:
                 options: ["nightwear", "loungewear", "lingerie", "accessories"]
               - { label: "Product Name", name: "name", widget: "string" }
               - { label: "Price (₹)", name: "price", widget: "number", value_type: "int" }
+              - { label: "Original Price (₹) — optional, only fill this in if this product is on discount", name: "originalPrice", widget: "number", value_type: "int", required: false }
               - label: "Sizes"
                 name: "sizes"
                 widget: "list"
