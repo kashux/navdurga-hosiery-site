@@ -4,8 +4,8 @@
       "id": "ac5",
       "category": "accessories",
       "name": "Adjustable Bra Straps",
-      "price": 149,
-      "originalPrice": null,
+      "price": 50,
+      "originalPrice": 90,
       "sizes": [
         "Free Size"
       ],
@@ -18,7 +18,8 @@
       "id": "ac6",
       "category": "accessories",
       "name": "Nipple Pasties",
-      "price": 299,
+      "price": 99,
+      "originalPrice": 299,
       "sizes": [
         "Free Size"
       ],
@@ -31,7 +32,8 @@
       "id": "ac7",
       "category": "accessories",
       "name": "Clip-On Camisole",
-      "price": 399,
+      "price": 299,
+      "originalPrice": 399,
       "sizes": [
         "S",
         "M",
