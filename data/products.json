@@ -180,7 +180,8 @@
       "id": "TP",
       "category": "loungewear",
       "name": "Track pants",
-      "price": 700,
+      "price": 849,
+      "originalPrice": 960,
       "sizes": [
         "L",
         "XL",
@@ -189,7 +190,24 @@
         "4XL",
         "5XL"
       ],
-      "sizePricing": [],
+      "sizePricing": [
+        {
+          "size": "XXL",
+          "price": 929
+        },
+        {
+          "size": "3XL",
+          "price": 929
+        },
+        {
+          "size": "4XL",
+          "price": 929
+        },
+        {
+          "size": "5XL",
+          "price": 929
+        }
+      ],
       "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-06 at 2.00.12 AM.jpeg",
       "video": "",
       "colors": [
