@@ -251,6 +251,9 @@
   .card-body h4{ margin:0; font-size:1rem; font-weight:700; }
   .card-body .desc{ font-size:0.8rem; color:var(--ink-soft); line-height:1.45; margin:0; }
   .price{ font-family:'Fraunces',serif; font-size:1.15rem; color:var(--plum); font-weight:600; }
+  .price .price-original{ font-size:0.8rem; color:var(--ink-soft); text-decoration:line-through; font-weight:600; margin-right:6px; }
+  .price .discount-badge{ font-size:0.66rem; font-weight:800; background:var(--gold); color:var(--plum); padding:3px 8px; border-radius:20px; margin-left:8px; vertical-align:middle; }
+  
   .sizes{ display:flex; gap:6px; flex-wrap:wrap; margin-top:auto; }
   .size-btn{
     border:1px solid var(--line); background:transparent; color:var(--ink);
@@ -644,7 +647,15 @@ function mediaMarkup(p){
       Add a product photo or video here
     </div>`;
 }
-
+function priceMarkup(currentPrice, originalPrice){
+  const cur = Number(currentPrice);
+  const orig = originalPrice ? Number(originalPrice) : null;
+  if(orig && orig > cur){
+    const pct = Math.round((1 - cur/orig) * 100);
+    return `<span class="price-original">₹${orig.toLocaleString('en-IN')}</span>₹${cur.toLocaleString('en-IN')}<span class="discount-badge">${pct}% off</span>`;
+  }
+  return `₹${cur.toLocaleString('en-IN')}`;
+}
 function priceForSize(p, sizeName){
   if(p.sizePricing && p.sizePricing.length){
     const match = p.sizePricing.find(s => s.size === sizeName);
@@ -673,7 +684,7 @@ function cardMarkup(p){
     <div class="card-body">
       <h4>${p.name}</h4>
       <p class="desc">${p.description}</p>
-      <div class="price">₹${Number(initialPrice).toLocaleString('en-IN')}</div>
+      <div class="price" data-original="${p.originalPrice || ''}">${priceMarkup(initialPrice, p.originalPrice)}</div>
       <div class="sizes">${sizeButtons}</div>
       ${colorChips}
       <div class="card-actions">
@@ -690,7 +701,10 @@ function selectSize(btn){
   const container = btn.closest('.card-body') || btn.closest('.modal-info');
   if(container && price){
     const priceEl = container.querySelector('.price');
-    if(priceEl) priceEl.textContent = '₹' + Number(price).toLocaleString('en-IN');
+    if(priceEl){
+      const original = priceEl.dataset.original;
+      priceEl.innerHTML = priceMarkup(price, original);
+    }
   }
 }
 
@@ -737,7 +751,9 @@ function openProduct(id){
   document.getElementById('modalName').textContent = p.name;
   document.getElementById('modalDesc').textContent = p.description;
   const initialPrice = (p.sizes && p.sizes.length) ? priceForSize(p, p.sizes[0]) : p.price;
-  document.getElementById('modalPrice').textContent = '₹' + Number(initialPrice).toLocaleString('en-IN');
+  const modalPriceEl = document.getElementById('modalPrice');
+  modalPriceEl.dataset.original = p.originalPrice || '';
+  modalPriceEl.innerHTML = priceMarkup(initialPrice, p.originalPrice);
   document.getElementById('modalSizes').innerHTML = (p.sizes || []).map((s,i) =>
     `<button class="size-btn${i===0 ? ' selected' : ''}" data-size="${s}" data-price="${priceForSize(p, s)}" onclick="selectSize(this)">${s}</button>`
   ).join('');
