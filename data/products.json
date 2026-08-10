@@ -5,6 +5,7 @@
       "category": "accessories",
       "name": "Adjustable Bra Straps",
       "price": 149,
+      "originalPrice": null,
       "sizes": [
         "Free Size"
       ],
@@ -118,7 +119,8 @@
       "id": "SNTY1",
       "category": "nightwear",
       "name": "Satin Kaftan Nighty",
-      "price": 1500,
+      "price": 1300,
+      "originalPrice": 1800,
       "sizes": [
         "M",
         "L",
