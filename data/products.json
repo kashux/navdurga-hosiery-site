@@ -142,11 +142,26 @@
       "id": "MNTY",
       "category": "nightwear",
       "name": "Maternity Short Nighty",
-      "price": 900,
+      "price": 999,
+      "originalPrice": 1500,
       "sizes": [
         "M",
         "L",
         "XL"
+      ],
+      "sizePricing": [
+        {
+          "size": "L",
+          "price": 999
+        },
+        {
+          "size": "XL",
+          "price": 1049
+        },
+        {
+          "size": "XXL",
+          "price": 1099
+        }
       ],
       "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.37-am.jpeg",
       "colors": [
@@ -163,6 +178,7 @@
       "category": "nightwear",
       "name": "Maternity Short Nighty",
       "price": 899,
+      "originalPrice": null,
       "sizes": [
         "M",
         "L",
