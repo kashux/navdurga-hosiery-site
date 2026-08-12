@@ -50,6 +50,7 @@
       "category": "lingerie",
       "name": "Everyday T-Shirt Bra",
       "price": 599,
+      "originalPrice": null,
       "sizes": [
         "32B",
         "34B",
@@ -66,6 +67,7 @@
       "category": "lingerie",
       "name": "Spaghetti Strap Camisole",
       "price": 449,
+      "originalPrice": null,
       "sizes": [
         "S",
         "M",
@@ -177,12 +179,10 @@
       "id": "MNTY1",
       "category": "nightwear",
       "name": "Maternity Short Nighty",
-      "price": 899,
-      "originalPrice": null,
+      "price": 1099,
+      "originalPrice": 1500,
       "sizes": [
-        "M",
-        "L",
-        "XL"
+        "L"
       ],
       "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.38-am-1-.jpeg",
       "colors": [
