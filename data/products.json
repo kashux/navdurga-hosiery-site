@@ -83,12 +83,10 @@
       "id": "lg6",
       "category": "lingerie",
       "name": "Laced Lingerie Set",
-      "price": 1199,
-      "originalPrice": null,
+      "price": 899,
+      "originalPrice": 1050,
       "sizes": [
-        "S",
-        "M",
-        "L"
+        "FREE SIZE"
       ],
       "image": "images/uploads/whatsapp-image-2026-07-29-at-2.56.31-pm-1-.jpeg",
       "video": "",
