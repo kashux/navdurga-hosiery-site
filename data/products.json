@@ -84,6 +84,7 @@
       "category": "lingerie",
       "name": "Laced Lingerie Set",
       "price": 1199,
+      "originalPrice": null,
       "sizes": [
         "S",
         "M",
@@ -99,6 +100,7 @@
       "category": "nightwear",
       "name": "N R Linen nighty",
       "price": 1000,
+      "originalPrice": null,
       "sizes": [
         "M",
         "L",
@@ -118,27 +120,6 @@
       ],
       "dateAdded": "2026-08-03",
       "description": "Special N R Linen fabric Nighty for comfort and style"
-    },
-    {
-      "id": "SNTY1",
-      "category": "nightwear",
-      "name": "Satin Kaftan Nighty",
-      "price": 1300,
-      "originalPrice": 1800,
-      "sizes": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.32-am.jpeg",
-      "colors": [
-        {
-          "name": "Black and Gray",
-          "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.31-am.jpeg"
-        }
-      ],
-      "dateAdded": "2026-08-03",
-      "description": "Italian Satin fabric kaftan nighty with floral design and drawstring"
     },
     {
       "id": "MNTY",
@@ -182,7 +163,23 @@
       "price": 1099,
       "originalPrice": 1500,
       "sizes": [
-        "L"
+        "L",
+        "L",
+        "XL"
+      ],
+      "sizePricing": [
+        {
+          "size": "L",
+          "price": 999
+        },
+        {
+          "size": "XL",
+          "price": 1049
+        },
+        {
+          "size": "XXL",
+          "price": 1099
+        }
       ],
       "image": "images/uploads/whatsapp-image-2026-08-03-at-2.07.38-am-1-.jpeg",
       "colors": [
@@ -236,6 +233,47 @@
       ],
       "dateAdded": "2026-08-07",
       "description": "Dry Fit Track pants for women, with drawstring and safe zip pockets"
+    },
+    {
+      "id": "LN",
+      "category": "lingerie",
+      "name": "Fancy Lace nighty",
+      "price": 630,
+      "originalPrice": 750,
+      "sizes": [
+        "FREE SIZE"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 9.11.09 PM.jpeg",
+      "video": "",
+      "colors": [
+        {
+          "name": "Dark Pink",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 9.11.07 PM.jpeg"
+        },
+        {
+          "name": "Chocolate Brown",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 9.11.08 PM.jpeg"
+        },
+        {
+          "name": "Wine",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 9.11.09 PM (1).jpeg"
+        },
+        {
+          "name": "Turqoise",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 9.11.08 PM (1).jpeg"
+        },
+        {
+          "name": "Baby pink",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 9.11.08 PM (2).jpeg"
+        },
+        {
+          "name": "Black",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 9.11.08 PM (3).jpeg"
+        }
+      ],
+      "dateAdded": "2026-08-13",
+      "description": "Fancy laced short nighty with fur"
     },
     {
       "id": "KNT",
