@@ -313,6 +313,117 @@
       ],
       "dateAdded": "2026-08-13",
       "description": "High Waist Shaper Brief For Women with Medium Compression/Control"
+    },
+    {
+      "id": "MN",
+      "category": "nightwear",
+      "name": "Malai Fabric Nighty",
+      "price": 1124,
+      "originalPrice": 1249,
+      "sizes": [
+        "XL",
+        "XXL"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-13 at 12.24.37 AM.jpeg",
+      "video": "",
+      "colors": [
+        {
+          "name": "Turqoise",
+          "image": ""
+        }
+      ],
+      "dateAdded": "2026-08-13",
+      "description": "Made with Malai Fabric, Straight cut nighty"
+    },
+    {
+      "id": "MN1",
+      "category": "nightwear",
+      "name": "Malai Fabric Nighty",
+      "price": 1079,
+      "originalPrice": 1199,
+      "sizes": [
+        "XL"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-13 at 12.24.37 AM (1).jpeg",
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-13",
+      "description": "Made with Malai Fabric, Straight cut nighty"
+    },
+    {
+      "id": "LIN1",
+      "category": "lingerie",
+      "name": "2 Piece See through Laced lingerie",
+      "price": 971,
+      "originalPrice": 1079,
+      "sizes": [
+        "FREE SIZE"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-13 at 12.33.20 AM.jpeg",
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-13",
+      "description": "2 Piece Fancy laced lingerie, made with see through cloth and 3D butterfly design. Along with V-string."
+    },
+    {
+      "id": "FN",
+      "category": "lingerie",
+      "name": "3 Piece Fancy laced nightwear",
+      "price": 809,
+      "originalPrice": 899,
+      "sizes": [
+        "FREE SIZE"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-13 at 12.33.29 AM.jpeg",
+      "video": "",
+      "colors": [
+        {
+          "name": "Red",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-13 at 12.33.29 AM (1).jpeg"
+        },
+        {
+          "name": "Dark Pink",
+          "image": "/navdurga-hosiery-site/images/uploads/whatsapp-image-2026-07-29-at-2.56.31-pm-1-.jpeg"
+        }
+      ],
+      "dateAdded": "2026-08-13",
+      "description": "3 piece Fancy lingerie with Laced bra, panty and short coat. Made with see through fabric"
+    },
+    {
+      "id": "LN2",
+      "category": "lingerie",
+      "name": "2 Piece Fancy See through Lingerie",
+      "price": 809,
+      "originalPrice": 899,
+      "sizes": [
+        "FREE SIZE"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-13 at 12.33.30 AM.jpeg",
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-13",
+      "description": "2 Piece, Laced Fancy Lingerie with V-string made  see through fabric"
+    },
+    {
+      "id": "LN4",
+      "category": "lingerie",
+      "name": "2 Piece, Fancy lingerie set",
+      "price": 1943,
+      "originalPrice": 2159,
+      "sizes": [
+        "FREE SIZE"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-13 at 12.33.27 AM (1).jpeg",
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-13",
+      "description": "2 Piece Lingerie set with butterfly top and short coat. made with malai fabric"
     }
   ]
 }
