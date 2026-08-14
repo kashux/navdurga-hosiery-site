@@ -450,6 +450,36 @@
       ],
       "dateAdded": "2026-08-15",
       "description": "3 Piece pack of Hipster panties, made with cotton fabric"
+    },
+    {
+      "id": "Mp",
+      "category": "lingerie",
+      "name": "Hipster Panty",
+      "price": 199,
+      "originalPrice": 250,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "sizePricing": [
+        {
+          "size": "XXL",
+          "price": 220
+        },
+        {
+          "size": "3XL",
+          "price": 220
+        }
+      ],
+      "image": "/navdurga-hosiery-site/images/uploads/41flYWFMy7L.jpg",
+      "images": [],
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-15",
+      "description": "3 Piece pack of Hipster panties made with modal fabric.Available in 3 colors Pink, Blue and nude"
     }
   ]
 }
