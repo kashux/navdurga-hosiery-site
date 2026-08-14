@@ -518,6 +518,23 @@
       ],
       "dateAdded": "2026-08-15",
       "description": "Maternity short nighty with floral print. Comes with side zips and drawstring"
+    },
+    {
+      "id": "MN1",
+      "category": "nightwear",
+      "name": "Maternity Short nighty",
+      "price": 1299,
+      "originalPrice": 1350,
+      "sizes": [
+        "XXL"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-03 at 2.07.36 AM.jpeg",
+      "images": [],
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-15",
+      "description": "Maternity short nighty with leaf print. Comes with zips and drawstring"
     }
   ]
 }
