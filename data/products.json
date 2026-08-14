@@ -532,7 +532,12 @@
       "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-03 at 2.07.36 AM.jpeg",
       "images": [],
       "video": "",
-      "colors": [],
+      "colors": [
+        {
+          "name": "Black",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-03 at 2.07.39 AM (2).jpeg"
+        }
+      ],
       "dateAdded": "2026-08-15",
       "description": "Maternity short nighty with leaf print. Comes with zips and drawstring"
     }
