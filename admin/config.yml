@@ -41,6 +41,12 @@ collections:
                   - { label: "Size (must match a size above exactly)", name: "size", widget: "string" }
                   - { label: "Price for this size (₹)", name: "price", widget: "number", value_type: "int" }
               - { label: "Product Photo", name: "image", widget: "image", required: false, hint: "Upload a photo — this shows on the site automatically." }
+              - label: "Additional Photos (optional)"
+                name: "images"
+                widget: "list"
+                required: false
+                field: { label: "Photo", name: "src", widget: "image" }
+                hint: "Extra angles/views of this product — shown as a photo gallery when someone clicks into it. The Product Photo above is still the main cover image."
               - { label: "Product Video (optional)", name: "video", widget: "file", required: false }
               - label: "Colors (optional)"
                 name: "colors"
