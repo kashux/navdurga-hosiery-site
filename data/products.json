@@ -480,6 +480,44 @@
       "colors": [],
       "dateAdded": "2026-08-15",
       "description": "3 Piece pack of Hipster panties made with modal fabric.Available in 3 colors Pink, Blue and nude"
+    },
+    {
+      "id": "MN1",
+      "category": "nightwear",
+      "name": "Maternity short nighty",
+      "price": 999,
+      "originalPrice": 1150,
+      "sizes": [
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "sizePricing": [
+        {
+          "size": "L",
+          "price": 999
+        },
+        {
+          "size": "XL",
+          "price": 1049
+        },
+        {
+          "size": "2XL",
+          "price": 1099
+        }
+      ],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-03 at 2.07.39 AM (1).jpeg",
+      "images": [],
+      "video": "",
+      "colors": [
+        {
+          "name": "Maroon",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-03 at 2.07.39 AM.jpeg"
+        }
+      ],
+      "dateAdded": "2026-08-15",
+      "description": "Maternity short nighty with floral print. Comes with side zips and drawstring"
     }
   ]
 }
