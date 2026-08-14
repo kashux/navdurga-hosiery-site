@@ -112,35 +112,6 @@
       "description": "All-over lace lingerie set with delicate scalloped edges."
     },
     {
-      "id": "NTY",
-      "category": "nightwear",
-      "name": "N R Linen nighty",
-      "price": 1000,
-      "originalPrice": null,
-      "sizes": [
-        "M",
-        "L",
-        "XL",
-        ""
-      ],
-      "sizePricing": [],
-      "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.25-pm-2-.jpeg",
-      "images": [],
-      "video": "",
-      "colors": [
-        {
-          "name": "Pink",
-          "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.26-pm.jpeg"
-        },
-        {
-          "name": "Peach",
-          "image": "images/uploads/whatsapp-image-2026-07-30-at-11.03.26-pm-1-.jpeg"
-        }
-      ],
-      "dateAdded": "2026-08-03",
-      "description": "Special N R Linen fabric Nighty for comfort and style"
-    },
-    {
       "id": "MNTY",
       "category": "nightwear",
       "name": "Maternity Short Nighty",
@@ -446,6 +417,39 @@
       "colors": [],
       "dateAdded": "2026-08-13",
       "description": "2 Piece Lingerie set with butterfly top and short coat. made with malai fabric"
+    },
+    {
+      "id": "HP",
+      "category": "lingerie",
+      "name": "Hipster Panty",
+      "price": 477,
+      "originalPrice": null,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/Floret_sFloralPantyBuyNow_1_b5bca122-f84d-4b87-9c27-c18b2f48713d.avif",
+      "images": [],
+      "video": "",
+      "colors": [
+        {
+          "name": "Dark green",
+          "image": "/navdurga-hosiery-site/images/uploads/Floret_sFloralPantyBuyNow_2_444b3a37-3f42-4616-a080-744468bc3b1f.avif"
+        },
+        {
+          "name": "Salmon Pink",
+          "image": "/navdurga-hosiery-site/images/uploads/Floret_sFloralPantyBuyNow_5_86660582-4c18-431f-8406-5aed61036cad.avif"
+        }
+      ],
+      "dateAdded": "2026-08-15",
+      "description": "3 Piece pack of Hipster panties, made with cotton fabric"
     }
   ]
 }
