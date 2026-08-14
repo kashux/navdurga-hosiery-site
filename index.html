@@ -343,6 +343,11 @@
     z-index:5; cursor:pointer;
   }
   .modal-media{ position:relative; aspect-ratio:3/4; background:linear-gradient(160deg,#e9dfe6,#f3ece6); }
+  .modal-media-col{ display:flex; flex-direction:column; }
+  .modal-thumbs{ display:flex; gap:8px; padding:10px; flex-wrap:wrap; }
+  .thumb-btn{ width:52px; height:52px; border-radius:var(--radius); overflow:hidden; border:1px solid var(--line); padding:0; background:none; cursor:pointer; }
+  .thumb-btn img{ width:100%; height:100%; object-fit:cover; }
+  .thumb-btn:hover, .thumb-btn.selected{ border-color:var(--gold); }
   .modal-media img, .modal-media video{ width:100%; height:100%; object-fit:cover; }
   .modal-info{ padding:34px 30px; display:flex; flex-direction:column; gap:12px; }
   .modal-info h3{ margin:0; font-family:'Fraunces',serif; font-size:1.5rem; color:var(--plum); }
@@ -592,7 +597,10 @@
 <div class="modal-overlay" id="productModal">
   <div class="modal-box">
     <button class="modal-close" id="modalCloseBtn" aria-label="Close">×</button>
-    <div class="modal-media" id="modalMedia"></div>
+    <div class="modal-media-col">
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-thumbs" id="modalThumbs"></div>
+    </div>
     <div class="modal-info">
       <span class="new-tag" id="modalNewTag" style="display:none; position:static; width:fit-content;">New</span>
       <h3 id="modalName"></h3>
@@ -664,7 +672,18 @@ function priceForSize(p, sizeName){
   }
   return Number(p.price);
 }
+function galleryImages(p){
+  const imgs = [];
+  if(p.image) imgs.push(p.image);
+  (p.images || []).forEach(im => { if(im && im.src && !imgs.includes(im.src)) imgs.push(im.src); });
+  return imgs;
+}
 
+function selectGalleryImage(src, btn){
+  document.getElementById('modalMedia').innerHTML = `<img src="${src}" alt="">`;
+  document.querySelectorAll('.thumb-btn').forEach(b => b.classList.remove('selected'));
+  if(btn) btn.classList.add('selected');
+}
 function cardMarkup(p){
   const newBadge = isNew(p) ? `<span class="new-tag">New</span>` : "";
   const sizeButtons = (p.sizes || []).map((s,i) =>
@@ -747,6 +766,10 @@ function openProduct(id){
   if(!p) return;
   document.getElementById('modalMedia').innerHTML = mediaMarkup(p);
   document.getElementById('modalNewTag').style.display = isNew(p) ? 'inline-block' : 'none';
+  const gallery = galleryImages(p);
+  document.getElementById('modalThumbs').innerHTML = gallery.length > 1 ? gallery.map((src,i) =>
+    `<button class="thumb-btn${i===0 ? ' selected' : ''}" onclick="selectGalleryImage('${src.replace(/'/g,"\\'")}', this)"><img src="${src}" alt=""></button>`
+  ).join('') : '';
   document.getElementById('modalName').textContent = p.name;
   document.getElementById('modalDesc').textContent = p.description;
   const initialPrice = (p.sizes && p.sizes.length) ? priceForSize(p, p.sizes[0]) : p.price;
