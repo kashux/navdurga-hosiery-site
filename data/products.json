@@ -798,6 +798,39 @@
       ],
       "dateAdded": "2026-08-15",
       "description": "Italian Satin straight cut nighty with floral print."
+    },
+    {
+      "id": "NTY1",
+      "category": "nightwear",
+      "name": "Satin Straight cut nighty",
+      "price": 1199,
+      "originalPrice": 1300,
+      "sizes": [
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "sizePricing": [
+        {
+          "size": "XL",
+          "price": 1249
+        },
+        {
+          "size": "XXL",
+          "price": 1299
+        }
+      ],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 20.jpeg",
+      "images": [],
+      "video": "",
+      "colors": [
+        {
+          "name": "Steel Grey",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-15 at 8.53.26 PM.jpeg"
+        }
+      ],
+      "dateAdded": "2026-08-15",
+      "description": "Italian Satin straight cut nighty with floral print."
     }
   ]
 }
