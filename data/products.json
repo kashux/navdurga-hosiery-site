@@ -578,6 +578,198 @@
       "colors": [],
       "dateAdded": "2026-08-15",
       "description": "Strapless Silicon bra with secure hook and full coverage"
+    },
+    {
+      "id": "CS",
+      "category": "loungewear",
+      "name": "Denim Co-ord set",
+      "price": 1479,
+      "originalPrice": 1750,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "sizePricing": [
+        {
+          "size": "L",
+          "price": 1499
+        },
+        {
+          "size": "XL",
+          "price": 1529
+        },
+        {
+          "size": "XXL",
+          "price": 1579
+        },
+        {
+          "size": "3XL",
+          "price": 1599
+        },
+        {
+          "size": "4XL",
+          "price": 1649
+        },
+        {
+          "size": "5XL",
+          "price": 1699
+        }
+      ],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 3.34.26 PM (1).jpeg",
+      "images": [],
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-15",
+      "description": "Denim Co-ord set with embroidery work on the top and straight pant"
+    },
+    {
+      "id": "CS1",
+      "category": "loungewear",
+      "name": "Denim Co-ord set",
+      "price": 1479,
+      "originalPrice": 1750,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "sizePricing": [
+        {
+          "size": "L",
+          "price": 1499
+        },
+        {
+          "size": "XL",
+          "price": 1529
+        },
+        {
+          "size": "XXL",
+          "price": 1579
+        },
+        {
+          "size": "3XL",
+          "price": 1599
+        },
+        {
+          "size": "4XL",
+          "price": 1649
+        },
+        {
+          "size": "5XL",
+          "price": 1699
+        }
+      ],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 3.34.26 PM (2).jpeg",
+      "images": [],
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-15",
+      "description": "Denim Co-ord set with thread work on the top and straight pant"
+    },
+    {
+      "id": "CS2",
+      "category": "loungewear",
+      "name": "Denim Co-ord set",
+      "price": 1479,
+      "originalPrice": 1750,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "sizePricing": [
+        {
+          "size": "L",
+          "price": 1499
+        },
+        {
+          "size": "XL",
+          "price": 1529
+        },
+        {
+          "size": "XXL",
+          "price": 1579
+        },
+        {
+          "size": "3XL",
+          "price": 1599
+        },
+        {
+          "size": "4XL",
+          "price": 1649
+        },
+        {
+          "size": "5XL",
+          "price": 1699
+        }
+      ],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 3.34.25 PM.jpeg",
+      "images": [],
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-15",
+      "description": "Denim Co-ord set with thread work on the top and straight pant with pockets."
+    },
+    {
+      "id": "CS4",
+      "category": "loungewear",
+      "name": "Denim Co-ord set",
+      "price": 1479,
+      "originalPrice": 1750,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "sizePricing": [
+        {
+          "size": "L",
+          "price": 1499
+        },
+        {
+          "size": "XL",
+          "price": 1529
+        },
+        {
+          "size": "XXL",
+          "price": 1579
+        },
+        {
+          "size": "3XL",
+          "price": 1599
+        },
+        {
+          "size": "4XL",
+          "price": 1649
+        },
+        {
+          "size": "5XL",
+          "price": 1699
+        }
+      ],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-12 at 3.34.26 PM.jpeg",
+      "images": [],
+      "video": "",
+      "colors": [],
+      "dateAdded": "2026-08-15",
+      "description": "Denim Co-ord set with thread work on the top and straight pant with pockets."
     }
   ]
 }
