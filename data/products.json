@@ -910,6 +910,28 @@
       "colors": [],
       "dateAdded": "2026-08-16",
       "description": "Imported Satin straight cut nighty with tie dye mix print"
+    },
+    {
+      "id": "KNTY",
+      "category": "nightwear",
+      "name": "Satin kaftan nighty",
+      "price": 1151,
+      "originalPrice": 1300,
+      "sizes": [
+        "XXL"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-07-29 at 2.52.36 PM.jpeg",
+      "images": [],
+      "video": "",
+      "colors": [
+        {
+          "name": "Maroon",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-07-29 at 2.52.39 PM.jpeg"
+        }
+      ],
+      "dateAdded": "2026-08-18",
+      "description": "Kaftan nighties made with pure Italian satin and floral print.Comes with a drawsting"
     }
   ]
 }
