@@ -932,6 +932,44 @@
       ],
       "dateAdded": "2026-08-18",
       "description": "Kaftan nighties made with pure Italian satin and floral print.Comes with a drawsting"
+    },
+    {
+      "id": "BR",
+      "category": "loungewear",
+      "name": "6 piece bathrobe set",
+      "price": 2500,
+      "originalPrice": 2999,
+      "sizes": [
+        "FREE SIZE"
+      ],
+      "sizePricing": [],
+      "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-14 at 4.19.10 PM.jpeg",
+      "images": [],
+      "video": "",
+      "colors": [
+        {
+          "name": "Dark brown",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-14 at 4.19.10 PM (1).jpeg"
+        },
+        {
+          "name": "Red",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-14 at 4.19.10 PM (2).jpeg"
+        },
+        {
+          "name": "Grey",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-14 at 4.19.11 PM (1).jpeg"
+        },
+        {
+          "name": "Pink",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-14 at 4.19.11 PM.jpeg"
+        },
+        {
+          "name": "Light brown",
+          "image": "/navdurga-hosiery-site/images/uploads/WhatsApp Image 2026-08-14 at 4.19.11 PM (2).jpeg"
+        }
+      ],
+      "dateAdded": "2026-08-18",
+      "description": "6 piece bathrobe set which includes, 2 bathrobe sets, 2 hand towels, 2 bath towels. packed perfectly in a tray basket"
     }
   ]
 }
