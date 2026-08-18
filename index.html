@@ -675,8 +675,12 @@ function priceForSize(p, sizeName){
 function galleryImages(p){
   const imgs = [];
   if(p.image) imgs.push(p.image);
-  (p.images || []).forEach(im => { if(im && im.src && !imgs.includes(im.src)) imgs.push(im.src); });
+  (p.images || []).forEach(im => {
+    const src = typeof im === 'string' ? im : (im && im.src);
+    if(src && !imgs.includes(src)) imgs.push(src);
+  });
   return imgs;
+}
 }
 
 function selectGalleryImage(src, btn){
