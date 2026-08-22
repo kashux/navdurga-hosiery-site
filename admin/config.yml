@@ -57,6 +57,7 @@ collections:
                   - { label: "Color Name", name: "name", widget: "string" }
                   - { label: "Photo for this color", name: "image", widget: "image", required: false }
               - { label: "Date Added", name: "dateAdded", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, hint: "Controls the 'New' badge — set to today's date for new arrivals." }
+                           - { label: "Mark as Trending? (optional)", name: "trending", widget: "boolean", required: false, default: false, hint: "Turn this on to show a 'Trending' badge on the product." }
               - { label: "Description", name: "description", widget: "text" }
 
   - name: "settings"
