@@ -681,8 +681,6 @@ function galleryImages(p){
   });
   return imgs;
 }
-}
-
 function selectGalleryImage(src, btn){
   document.getElementById('modalMedia').innerHTML = `<img src="${src}" alt="">`;
   document.querySelectorAll('.thumb-btn').forEach(b => b.classList.remove('selected'));
@@ -770,10 +768,6 @@ function openProduct(id){
   if(!p) return;
   document.getElementById('modalMedia').innerHTML = mediaMarkup(p);
   document.getElementById('modalNewTag').style.display = isNew(p) ? 'inline-block' : 'none';
-  const gallery = galleryImages(p);
-  document.getElementById('modalThumbs').innerHTML = gallery.length > 1 ? gallery.map((src,i) =>
-    `<button class="thumb-btn${i===0 ? ' selected' : ''}" onclick="selectGalleryImage('${src.replace(/'/g,"\\'")}', this)"><img src="${src}" alt=""></button>`
-  ).join('') : '';
   const gallery = galleryImages(p);
   document.getElementById('modalThumbs').innerHTML = gallery.length > 1 ? gallery.map((src,i) =>
     `<button class="thumb-btn${i===0 ? ' selected' : ''}" onclick="selectGalleryImage('${src.replace(/'/g,"\\'")}', this)"><img src="${src}" alt=""></button>`
