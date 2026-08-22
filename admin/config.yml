@@ -24,6 +24,7 @@ collections:
                 name: "category"
                 widget: "select"
                 options: ["nightwear", "loungewear", "lingerie", "accessories"]
+              - { label: "Type (optional) — e.g. Nighty, Robe, Co-ord Set, Track Pants", name: "type", widget: "string", required: false, hint: "Used for the filter bar. Spell it consistently across similar products (e.g. always 'Nighty', not sometimes 'Night Gown')." }
               - { label: "Product Name", name: "name", widget: "string" }
               - { label: "Price (₹)", name: "price", widget: "number", value_type: "int" }
               - { label: "Original Price (₹) — optional, only fill this in if this product is on discount", name: "originalPrice", widget: "number", value_type: "int", required: false }
