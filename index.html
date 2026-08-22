@@ -774,6 +774,10 @@ function openProduct(id){
   document.getElementById('modalThumbs').innerHTML = gallery.length > 1 ? gallery.map((src,i) =>
     `<button class="thumb-btn${i===0 ? ' selected' : ''}" onclick="selectGalleryImage('${src.replace(/'/g,"\\'")}', this)"><img src="${src}" alt=""></button>`
   ).join('') : '';
+  const gallery = galleryImages(p);
+  document.getElementById('modalThumbs').innerHTML = gallery.length > 1 ? gallery.map((src,i) =>
+    `<button class="thumb-btn${i===0 ? ' selected' : ''}" onclick="selectGalleryImage('${src.replace(/'/g,"\\'")}', this)"><img src="${src}" alt=""></button>`
+  ).join('') : '';
   document.getElementById('modalName').textContent = p.name;
   document.getElementById('modalDesc').textContent = p.description;
   const initialPrice = (p.sizes && p.sizes.length) ? priceForSize(p, p.sizes[0]) : p.price;
