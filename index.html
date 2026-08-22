@@ -247,6 +247,11 @@
     font-size:0.62rem; font-weight:800; letter-spacing:0.05em; text-transform:uppercase;
     padding:5px 9px; border-radius:20px; z-index:3;
   }
+    .trending-tag{
+    position:absolute; top:10px; right:10px; background:var(--plum); color:var(--ivory);
+    font-size:0.62rem; font-weight:800; letter-spacing:0.05em; text-transform:uppercase;
+    padding:5px 9px; border-radius:20px; z-index:3;
+  }
   .card-body{ padding:16px 18px 20px; display:flex; flex-direction:column; gap:10px; flex:1; }
   .card-body h4{ margin:0; font-size:1rem; font-weight:700; }
   .card-body .desc{ font-size:0.8rem; color:var(--ink-soft); line-height:1.45; margin:0; }
@@ -609,6 +614,7 @@
     </div>
     <div class="modal-info">
       <span class="new-tag" id="modalNewTag" style="display:none; position:static; width:fit-content;">New</span>
+      <span class="trending-tag" id="modalTrendingTag" style="display:none; position:static; width:fit-content; margin-left:6px;">🔥 Trending</span>
       <h3 id="modalName"></h3>
       <p class="modal-desc" id="modalDesc"></p>
       <div class="price" id="modalPrice"></div>
@@ -698,6 +704,7 @@ function selectGalleryImage(src, btn){
 }
 function cardMarkup(p){
   const newBadge = isNew(p) ? `<span class="new-tag">New</span>` : "";
+  const trendingBadge = p.trending ? `<span class="trending-tag">🔥 Trending</span>` : "";
   const sizeButtons = (p.sizes || []).map((s,i) =>
     `<button class="size-btn${i===0 ? ' selected' : ''}" data-size="${s}" data-price="${priceForSize(p, s)}" onclick="event.stopPropagation(); selectSize(this)">${s}</button>`
   ).join("");
@@ -709,6 +716,7 @@ function cardMarkup(p){
   <div class="card" data-cat="${p.category}" onclick="openProduct('${p.id}')">
     <div class="media">
       ${newBadge}
+      ${trendingBadge}
       ${mediaMarkup(p)}
     </div>
     <div class="card-body">
@@ -778,6 +786,7 @@ function openProduct(id){
   if(!p) return;
   document.getElementById('modalMedia').innerHTML = mediaMarkup(p);
   document.getElementById('modalNewTag').style.display = isNew(p) ? 'inline-block' : 'none';
+  document.getElementById('modalTrendingTag').style.display = p.trending ? 'inline-block' : 'none';
   const gallery = galleryImages(p);
   document.getElementById('modalThumbs').innerHTML = gallery.length > 1 ? gallery.map((src,i) =>
     `<button class="thumb-btn${i===0 ? ' selected' : ''}" onclick="selectGalleryImage('${src.replace(/'/g,"\\'")}', this)"><img src="${src}" alt=""></button>`
