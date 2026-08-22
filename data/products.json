@@ -3,6 +3,7 @@
     {
       "id": "ac5",
       "category": "accessories",
+      "type": "Bra",
       "name": "Adjustable Bra Straps",
       "price": 50,
       "originalPrice": 90,
@@ -21,6 +22,7 @@
     {
       "id": "ac6",
       "category": "accessories",
+      "type": "Silicon bra",
       "name": "Nipple Pasties",
       "price": 99,
       "originalPrice": 200,
@@ -39,6 +41,7 @@
     {
       "id": "ac7",
       "category": "accessories",
+      "type": "Accessory",
       "name": "Clip-On Camisole",
       "price": 299,
       "originalPrice": 399,
@@ -60,6 +63,7 @@
     {
       "id": "lg1",
       "category": "lingerie",
+      "type": "Bra",
       "name": "Everyday T-Shirt Bra",
       "price": 599,
       "originalPrice": null,
@@ -81,6 +85,7 @@
     {
       "id": "lg4",
       "category": "lingerie",
+      "type": "Spaghetti",
       "name": "Spaghetti Strap Camisole",
       "price": 449,
       "originalPrice": null,
@@ -102,6 +107,7 @@
     {
       "id": "lg6",
       "category": "lingerie",
+      "type": "",
       "name": "Laced Lingerie Set",
       "price": 899,
       "originalPrice": 1050,
@@ -120,6 +126,7 @@
     {
       "id": "MNTY",
       "category": "nightwear",
+      "type": "Maternity wear",
       "name": "Maternity Short Nighty",
       "price": 999,
       "originalPrice": 1500,
@@ -158,6 +165,7 @@
     {
       "id": "MNTY1",
       "category": "nightwear",
+      "type": "",
       "name": "Maternity Short Nighty",
       "price": 1099,
       "originalPrice": 1500,
@@ -196,6 +204,7 @@
     {
       "id": "TP",
       "category": "loungewear",
+      "type": "",
       "name": "Track pants",
       "price": 849,
       "originalPrice": 1000,
@@ -241,6 +250,7 @@
     {
       "id": "LN",
       "category": "lingerie",
+      "type": "Bedroom wear",
       "name": "Fancy Lace nighty",
       "price": 630,
       "originalPrice": 750,
@@ -284,6 +294,7 @@
     {
       "id": "sw",
       "category": "lingerie",
+      "type": "",
       "name": "High Waist shapewear",
       "price": 915,
       "originalPrice": 1000,
@@ -315,6 +326,7 @@
     {
       "id": "MN",
       "category": "nightwear",
+      "type": "Straight cut nighty",
       "name": "Malai Fabric Nighty",
       "price": 1124,
       "originalPrice": 1249,
@@ -339,6 +351,7 @@
     {
       "id": "MN1",
       "category": "nightwear",
+      "type": "Straight cut nighty",
       "name": "Malai Fabric Nighty",
       "price": 1079,
       "originalPrice": 1199,
@@ -357,6 +370,7 @@
     {
       "id": "LIN1",
       "category": "lingerie",
+      "type": "Bedroom wear",
       "name": "2 Piece See through Laced lingerie",
       "price": 971,
       "originalPrice": 1079,
@@ -375,6 +389,7 @@
     {
       "id": "FN",
       "category": "lingerie",
+      "type": "Bedroom wear",
       "name": "3 Piece Fancy laced nightwear",
       "price": 809,
       "originalPrice": 899,
@@ -402,6 +417,7 @@
     {
       "id": "LN2",
       "category": "lingerie",
+      "type": "Bedroom wear",
       "name": "2 Piece Fancy See through Lingerie",
       "price": 809,
       "originalPrice": 899,
@@ -420,6 +436,7 @@
     {
       "id": "LN4",
       "category": "lingerie",
+      "type": "Bedroom wear",
       "name": "2 Piece, Fancy lingerie set",
       "price": 1943,
       "originalPrice": 2159,
@@ -438,6 +455,7 @@
     {
       "id": "HP",
       "category": "lingerie",
+      "type": "Panty",
       "name": "Hipster Panty",
       "price": 477,
       "originalPrice": null,
@@ -472,6 +490,7 @@
     {
       "id": "Mp",
       "category": "lingerie",
+      "type": "Panty",
       "name": "Hipster Panty",
       "price": 199,
       "originalPrice": 250,
@@ -503,6 +522,7 @@
     {
       "id": "MN1",
       "category": "nightwear",
+      "type": "",
       "name": "Maternity short nighty",
       "price": 999,
       "originalPrice": 1150,
@@ -542,6 +562,7 @@
     {
       "id": "MN1",
       "category": "nightwear",
+      "type": "Maternity wear",
       "name": "Maternity Short nighty",
       "price": 1299,
       "originalPrice": 1350,
@@ -565,6 +586,7 @@
     {
       "id": "USENT",
       "category": "accessories",
+      "type": "Panty",
       "name": "Use and Throw panties",
       "price": 150,
       "originalPrice": 200,
@@ -585,6 +607,7 @@
     {
       "id": "SB",
       "category": "accessories",
+      "type": "",
       "name": "Strapless Silicon Bra",
       "price": 399,
       "originalPrice": 450,
@@ -605,6 +628,7 @@
     {
       "id": "CS",
       "category": "loungewear",
+      "type": "Denim",
       "name": "Denim Co-ord set",
       "price": 1479,
       "originalPrice": 1750,
@@ -654,6 +678,7 @@
     {
       "id": "CS1",
       "category": "loungewear",
+      "type": "",
       "name": "Denim Co-ord set",
       "price": 1479,
       "originalPrice": 1750,
@@ -703,6 +728,7 @@
     {
       "id": "CS2",
       "category": "loungewear",
+      "type": "",
       "name": "Denim Co-ord set",
       "price": 1479,
       "originalPrice": 1750,
@@ -752,6 +778,7 @@
     {
       "id": "CS4",
       "category": "loungewear",
+      "type": "",
       "name": "Denim Co-ord set",
       "price": 1479,
       "originalPrice": 1750,
@@ -801,6 +828,7 @@
     {
       "id": "NTY",
       "category": "nightwear",
+      "type": "Straight cut nighty",
       "name": "Satin Straight cut nighty",
       "price": 1079,
       "originalPrice": 1300,
@@ -830,6 +858,7 @@
     {
       "id": "NTY1",
       "category": "nightwear",
+      "type": "Straight cut nighty",
       "name": "Satin Straight cut nighty",
       "price": 1199,
       "originalPrice": 1300,
@@ -864,6 +893,7 @@
     {
       "id": "NTY2",
       "category": "nightwear",
+      "type": "",
       "name": "Satin Straight cut nighty",
       "price": 1199,
       "originalPrice": 1300,
@@ -893,6 +923,7 @@
     {
       "id": "NTY3",
       "category": "nightwear",
+      "type": "Straight cut nighty",
       "name": "Satin Straight cut nighty",
       "price": 1299,
       "originalPrice": 1350,
@@ -911,6 +942,7 @@
     {
       "id": "NTY4",
       "category": "nightwear",
+      "type": "",
       "name": "Satin Straight cut nighty",
       "price": 1299,
       "originalPrice": 1400,
@@ -929,6 +961,7 @@
     {
       "id": "NTY5",
       "category": "nightwear",
+      "type": "Straight cut nighty",
       "name": "Satin Straight cut nighty",
       "price": 1299,
       "originalPrice": 1400,
@@ -947,6 +980,7 @@
     {
       "id": "KNTY",
       "category": "nightwear",
+      "type": "Kaftan nighty",
       "name": "Satin kaftan nighty",
       "price": 1151,
       "originalPrice": 1300,
@@ -970,6 +1004,7 @@
     {
       "id": "BR",
       "category": "loungewear",
+      "type": "Bathrobe",
       "name": "6 piece bathrobe set",
       "price": 2500,
       "originalPrice": 2999,
